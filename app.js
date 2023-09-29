@@ -1,0 +1,1 @@
+const skills = document.querySelector(".tab-links");
