@@ -39,7 +39,7 @@ nav ul li {
   list-style: none;
   margin: 10px 20px;
 }
-/* edit, down */
+
 nav ul li a {
   color: aliceblue;
   text-decoration: none;
@@ -61,7 +61,7 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
-/* edit, up */
+
 .header-text {
   margin-top: 20%;
   font-size: 30px;
@@ -126,9 +126,11 @@ nav ul li a:hover::after {
   transition: 0.5s;
 }
 
+/* Working on tabs that shows content when clicked (Not implemented in this release)
+
 .tab-links.active-link::after {
   width: 50%;
-}
+} */
 
 .tab-content ul li {
   list-style: none;
@@ -136,14 +138,17 @@ nav ul li a:hover::after {
 }
 
 .tab-content ul li span {
-  color: #8a04ed;
+  color: #831187;
   font-size: 14px;
 }
 
 .tab-content {
-  display: none;
+  display: block;
 }
+
+/* Working on tabs that shows content when clicked (Not implemented in this release)
 
 .tab-content.active-tab {
   display: block;
 }
+ */
