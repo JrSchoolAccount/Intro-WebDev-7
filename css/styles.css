@@ -13,7 +13,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(https://s6.gifyu.com/images/S6L0e.gif);
+  background-image: url("../images/background.gif");
   background-size: cover;
   background-position: center center;
 }
